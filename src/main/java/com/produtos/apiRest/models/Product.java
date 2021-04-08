@@ -16,7 +16,7 @@ public class Product implements Serializable {
     private Integer quantidade;
     private BigDecimal valor;
 
-    public long getId() {
+    public Long getId() {
         return id;
     }
 
